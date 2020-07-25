@@ -6,7 +6,12 @@ import (
 )
 
 func main() {
-	file, err := os.Open("Main.class")
+	if len(os.Args) != 2 {
+		fmt.Println("Usage: go run *.go [.class filename]")
+		os.Exit(1)
+	}
+
+	file, err := os.Open(os.Args[1])
 	if err != nil {
 		panic(err)
 	}

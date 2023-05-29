@@ -1,2 +1,7 @@
 # GVM
-Sample usage: go run *.go example/Main.class
+:computer: A toy JVM writter in Golang
+
+## Usage
+```
+go run *.go example/Main.class
+```

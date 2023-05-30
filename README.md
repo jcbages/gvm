@@ -1,5 +1,5 @@
 # gvm
-:computer: A toy JVM writter in Golang.
+:computer: A toy Java Virtual Machine written in Golang.
 
 ## Usage
 ```
